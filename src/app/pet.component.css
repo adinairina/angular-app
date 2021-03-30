@@ -1,0 +1,11 @@
+p {
+    color: midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    background-color: lightblue;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border-style: groove solid;
+
+}

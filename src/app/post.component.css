@@ -1,0 +1,9 @@
+div {
+    width: 500px;
+    display: inline-block;
+    background-color: wheat;
+    margin: 1rem;
+    padding: 1rem;
+    border: firebrick solid 2px;
+
+}

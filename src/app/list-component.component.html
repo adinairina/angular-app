@@ -1,0 +1,15 @@
+<div>
+    <ul>
+        <li *ngFor="let element of list">{{ element }}
+            <button (click)="userClicked(element)">Click Me!</button>
+        </li>
+    </ul>
+</div>
+
+<app-pet></app-pet>
+
+<app-post [postFromParent]="listFromService"
+(userClickOnPost)="handleClickFromChild($event)"
+></app-post>
+
+

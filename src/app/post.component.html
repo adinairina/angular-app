@@ -1,0 +1,7 @@
+<div *ngFor="let post of postFromParent">
+    <h2>{{post?.title}}</h2>
+    <h4>{{post?.id}}</h4>
+    <p>{{post?.body}}</p>
+    <button (click)="clickOnPost(post.id)">Click!</button>
+    <a [routerLink]="['/post-details',post.id]">Link to this post</a>
+</div>

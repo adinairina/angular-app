@@ -1,4 +1,39 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h1>Welcome to Angular!</h1>
+<hr>
+
+<nav class="nav-menu">
+    <a routerLink="/list">List</a>
+    <a routerLink="/contact">Contact</a>
+</nav>
+
+<router-outlet></router-outlet>
+
+<!-- <app-list-component [list]= "firstList"></app-list-component>
+<app-list-component [list]= "secondList"></app-list-component>
+<app-list-component [list]= "thirdList"></app-list-component>
+<app-list-component [list]= "fourthList"></app-list-component> -->
+
+<!-- <ul>
+    <li *ngFor = "let item of firstList">{{item}}</li>
+</ul>
+
+<ul>
+    <li *ngFor = "let item of secondList">{{item}}</li>
+</ul>
+
+<ul>
+    <li *ngFor = "let item of thirdList">{{item}}</li>
+</ul>
+
+<ul>
+    <li *ngFor = "let item of fourthList">{{item}}</li>
+</ul> -->
+
+<!-- Two way data binding -->
+<!-- <label for="userInput">Type here... </label>
+<input type="text" type="text" [(ngModel)]="userInput">
+<h3>2 way data binding: {{userInput}}</h3>
+
+<label for="userInput">Type here... </label>
+<input type="text" type="text" [(value)]="secondUserInput">
+<h3>1 way data binding: {{secondUserInput}}</h3> -->
